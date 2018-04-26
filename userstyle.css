@@ -213,20 +213,6 @@ input.textual, button.textual
 @-moz-document url-prefix("http://twitter.com"), url-prefix("https://twitter.com"), url-prefix("https://tweetdeck.twitter.com/"), url-prefix("http://tweetdeck.twitter.com/") {
 /* here you can change the loading thumb, the first one is of the nav bar, the second is of the footer */
 
-.pushstate-spinner
-{
-	background-image: url("http://i570.photobucket.com/albums/ss143/stbinan/1665_zpsjgoesfr2.png") !important;
-	margin-bottom: 5px;
-}
-.spinner
-{
-	background: url("http://i570.photobucket.com/albums/ss143/stbinan/379_zpsbepu58zc.png") no-repeat !important;
-	margin-top: 6px;
-}
-.tweet-form .spinner
-{
-	background-image: url("http://i570.photobucket.com/albums/ss143/stbinan/329_zpslswkgcny.png") !important;
-}
 .PermalinkOverlay-spinner
 {
 	background: transparent no-repeat scroll 0px center;
