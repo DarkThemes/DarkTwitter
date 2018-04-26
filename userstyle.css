@@ -2117,8 +2117,6 @@ input, textarea, div[contenteditable], .t1-select
 }
 .twitter-timeline-link[class*="u-hidden"]
 {
-	width: auto !important;
-	height: auto !important;
 	display: inline !important;
 	position: static !important;
 	margin-left: 0.3em !important;
