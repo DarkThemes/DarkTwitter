@@ -281,6 +281,7 @@ body
 .new-tweets-bar:hover
 {
 	background-color: #1B1B1B !important;
+	border: none;
 }
 .content-header .header-inner, .content-no-header .no-header-inner
 {
@@ -1873,7 +1874,7 @@ li.stream-item.highlighted
 {
 	background-color: #444;
 }
-.EdgeButton--secondary:focus, .EdgeButton--secondary:active, .EdgeButton--primary:focus, .EdgeButton--primary:active, .EdgeButton--danger:focus, .EdgeButton--danger:active, .EdgeButton--invertedDanger:focus, .EdgeButton--invertedDanger:active
+.EdgeButton--secondary:focus, .EdgeButton--secondary:active, .EdgeButton--primary:focus, .EdgeButton--primary:active, .EdgeButton--danger:focus, .EdgeButton--danger:active, .EdgeButton--invertedDanger:focus, .EdgeButton--invertedDanger:active, button:focus, button:active
 {
 	box-shadow: 0 0 0 2px #161616, 0 0 0 4px #555;
 }
