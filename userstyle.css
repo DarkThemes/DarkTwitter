@@ -1863,11 +1863,13 @@ li.stream-item.highlighted
 }
 .RichEditor
 {
-	border: 1px solid #101010 !important;
+	background: #444;
+	border: 1px solid #444 !important;
 }
 .tweet-box textarea:focus, .tweet-box input[type="text"], .currently-dragging .tweet-form.is-droppable .tweet-drag-help, .tweet-box[contenteditable="true"]:focus, .RichEditor.is-fakeFocus
 {
-	border-color: #101010;
+	border-color: #444;
+	box-shadow: 0 0 0 1px #444;
 }
 .TwitterCard .PlayerCard--video .PlayerCard-videoContainer
 {
@@ -2092,10 +2094,6 @@ input, textarea, div[contenteditable], .t1-select
 {
 	background-color: #161616;
 	border: 1px solid #050505;
-}
-.RichEditor, .TweetBoxAttachments
-{
-	border-color: #050505 !important;
 }
 .twitter-timeline-link[class*="u-hidden"]
 {
