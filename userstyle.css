@@ -845,9 +845,9 @@ body.user-style-MeetAnimals
 {
 	margin-left: -58px;
 }
-.wtf-module .import-prompt .cta
+.wtf-module .import-prompt .cta, .wtf-module .UserSmallListItem
 {
-	border-bottom: 1px solid #060606 !important;
+	border-bottom: 1px solid #060606;
 }
 .style-element-7
 {
