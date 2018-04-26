@@ -1390,7 +1390,7 @@ h1, h2, h3, h4, h5, h6, .fullname
 {
 	color: #CCCCCC;
 }
-.stats a strong, .modal-body p
+.stats a:not(:hover) strong, .modal-body p
 {
 	color: #CCCCCC;
 }
