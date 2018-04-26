@@ -253,7 +253,7 @@ input.textual, button.textual
 {
 	background-color: #161616 !important;
 }
-.tweet:hover
+.tweet:not(.Tweet--invertedColors):hover
 {
 	background-color: #1B1B1B !important;
 }
@@ -1969,10 +1969,6 @@ input, textarea, div[contenteditable], .t1-select
 .dismiss-module .dismiss-confirmation, .dismiss-module .feedback-action
 {
 	border-bottom: 1px solid #060606;
-}
-.GalleryTweet
-{
-	background: #161616 none repeat scroll 0% 0%;
 }
 .login-responsive .page-canvas
 {
