@@ -2229,11 +2229,12 @@ input, textarea, div[contenteditable], .t1-select
 {
 	border: none !important;
 	background-color: #161616 !important;
-	.ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover {
-    background: #101010;
+}
+.QuoteTweet--slim:hover {
+    background: #101010 !important;
     border: solid #525252 1px;
 }
-.ActivityItem:not(.has-clickAction) .QuoteTweet--slim {
+.QuoteTweet--slim {
 transition: background 1s, transform 2s;
 }
 }
