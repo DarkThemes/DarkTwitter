@@ -2229,5 +2229,10 @@ input, textarea, div[contenteditable], .t1-select
 {
 	border: none !important;
 	background-color: #161616 !important;
+	
+.wtf-module .import-prompt .service {
+    border: 1px solid #161616;
+    background: #161616;
+}
 }
 }
