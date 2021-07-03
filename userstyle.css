@@ -2223,6 +2223,11 @@ input, textarea, div[contenteditable], .t1-select
 {
 	border: none !important;
 	background-color: #161616 !important;
+	
+.wtf-module .import-prompt .service {
+    border: 1px solid #161616;
+    background: #161616;
+}
 }
 .vellip, .vellip:before, .vellip:after, .conversation-module > li:after, .conversation-module > li:before, .ThreadedConversation--loneTweet:after, .ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet:before, .ThreadedConversation-tweet:after, .ThreadedConversation-moreReplies:before, .ThreadedConversation-viewOther:before, .ThreadedConversation-unavailableTweet:before, .ThreadedConversation-unavailableTweet:after, .ThreadedConversation--permalinkTweetWithAncestors:before, .mini-avatar-with-thread:before, .permalink.self-thread-permalink-with-descendant .permalink-tweet-container:after, .permalink.self-thread-permalink-with-descendant .inline-reply-tweetbox-container:after
 {
